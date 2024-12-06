@@ -64,4 +64,23 @@ The **OSI model** has 7 layers. Think of it like sending a letter through a post
     *  Example: You send a message via Gmail or watch Netflix.
 
     *  Analogy: Your friend opens and reads the letter.
+
+
+## Practical Example: Sending a File
+
+Imagine you’re sending a picture through WhatsApp. Here’s how the OSI model works:
+
+**Application Layer:** You choose the photo and hit "Send" in WhatsApp.
+
+**Presentation Layer:** WhatsApp compresses the photo (to make it smaller).
+
+**Session Layer:** WhatsApp creates a session between your phone and the server.
+
+**Transport Layer:** The photo is split into packets, and TCP ensures they arrive correctly.
+
+**Network Layer:** Each packet is assigned an IP address (your friend’s phone/server).
+
+**Data Link Layer:** Converts packets into frames with MAC addresses for local delivery.
+
+**Physical Layer:** Frames are sent as electrical signals (via Wi-Fi, mobile data).
   
